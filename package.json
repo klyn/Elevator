@@ -1,0 +1,22 @@
+{
+  "name": "elevator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/typescript/bin/tsc && node source/index.js",
+    "test": "./node_modules/typescript/bin/tsc && mocha 'source/**/__tests__/*.js' --recursive",
+    "example": "./node_modules/typescript/bin/tsc && node source/example.js"
+  },
+  "author": "KLYN",
+  "license": "MIT License",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  }
+}
